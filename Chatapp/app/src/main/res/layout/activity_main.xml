@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/register"
+       android:text="Register"
+       android:drawableLeft="@drawable/ic_account_box_black_24dp"
+       style="@style/Base.Widget.AppCompat.Button.Colored"
+       android:layout_above="@+id/login"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+
+        android:text="Login"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
+</RelativeLayout>
